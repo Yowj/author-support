@@ -4,7 +4,7 @@ import { protect } from "../middleware/authMiddleware.js"
 const router = express.Router()
 
 // GET all workouts
-router.get('/', getAllTemplate )
+router.get('/', protect, getAllTemplate )
 
 //GET a single workout
 router.get('/:id', getTemplate)
