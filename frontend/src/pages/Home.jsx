@@ -53,7 +53,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="h-screen w-full bg-gradient-to-b from-gray-800 via-gray-900 to-gray-800 flex">
+      <div className="min-h-screen w-full bg-gradient-to-b from-gray-800 via-gray-900 to-gray-800 flex">
         {/* Sidebar */}
         <div className="w-1/6 bg-gray-800 shadow-md p-4">
           <button
