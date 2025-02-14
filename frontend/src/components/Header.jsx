@@ -50,6 +50,14 @@ const Header = () => {
                   >
                     Author Benefits
                   </a>
+                  <a
+                    href="https://activity.webnovel.com/noah/287439652"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 transition duration-200"
+                  >
+                    Content Creation Guideline
+                  </a>
                 </div>
               </div>
             )}
