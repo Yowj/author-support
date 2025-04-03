@@ -27,14 +27,6 @@ const Header = () => {
               <div className="absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
                 <div className="py-1" role="menu">
                   <a
-                    href="https://docs.google.com/spreadsheets/d/1BQq5-jk5ZvfcqK910-ZJHr62KPczCGH31tvKkzdPMUo/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-200 transition duration-200"
-                  >
-                    AST Feedback Recording
-                  </a>
-                  <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSc_K9TXOS8xedMtW-vx6SjGi7uon5aSmnYDX5SYAY-ltHXX7A/viewform?pli=1&pli=1"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -62,13 +54,6 @@ const Header = () => {
               </div>
             )}
           </div>
-          <a
-            className="text-yellow-500 font-bold text-lg"
-            href="https://docs.google.com/spreadsheets/d/1BQq5-jk5ZvfcqK910-ZJHr62KPczCGH31tvKkzdPMUo/edit?gid=876745341#gid=876745341"
-            target = "_blank"
-          >
-            AST Feedback Recording
-          </a>
         </div>
         <div className="flex items-center space-x-6"></div>
       </div>
