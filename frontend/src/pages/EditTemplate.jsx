@@ -19,7 +19,7 @@ const EditTemplate = () => {
     try {
       axios
         .get(`${import.meta.env.VITE_BACKEND_URLT}/${id}`)
-        .then((response) => {
+        .then((response) => {``
           const data = response.data;
           setCategory(data.category);
           setQuestion(data.question);
