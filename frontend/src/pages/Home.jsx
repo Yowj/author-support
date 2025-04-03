@@ -62,11 +62,11 @@ const Home = () => {
           >
             Show All Templates
           </button>
-          <h2 className="text-xl font-bold mb-4 text-white">Categories</h2>
+          <h2 className="w-full text-center text-xl font-bold mb-2 mt-3 border-b border-white text-yellow-300">Categories</h2>
           <div className="grid grid-cols-2 gap-2 mb-4">
             {categories.map((category, index) => (
               <button
-                className="text-left px-4 py-2 font-medium text-gray-300 hover:text-yellow-300 transition duration-400"
+                className="flex items-center justify-center w-full px-4 py-2 font-medium text-gray-300"
                 key={index}
                 onClick={() => handleCategoryClick(category)}
               >
